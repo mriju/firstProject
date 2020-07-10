@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    color: #777777;
+    line-height: 26px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url('images/header-bg.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wlcometxt{
+    font-size: 35px;
+    color: #111;
+    padding-top: 5%;
+}
+.myname{
+    color: #EC4C7A;
+    font-size: 50px;
+}
+.name_desc{
+    text-align: justify;
+}
+.mid{
+    width: 90%;
+    margin: auto;
+}
+.left-part{
+    width: 48%;
+    float: left;
+}
+.right-part{
+    width: 48%;
+    float: left;
+}
+.right-part .topimg{
+    width: 95%;
+    padding-left: 19%;
+}
+.hireBtn{
+        background: linear-gradient(45deg, #EC4C7A, rgb(235, 15, 77) );
+        padding: 10px 20px;
+        color: #fff;
+
+}
