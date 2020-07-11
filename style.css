@@ -1,48 +1,164 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     font-family: sans-serif;
-    color: #777777;
-    line-height: 26px;
+
 }
 a{
     text-decoration: none;
 }
-header{
+.mid{
+   width: 85%;
+   margin: auto; 
+   padding: 5% 0;
+}
+.mybtn{
+    padding: 10px;
+    background: tomato;
+    color: #fff;
+    margin-top: 4%;
+    border-radius: 3px;
+}
+
+.welcomeArea{
     background-image: url('images/header-bg.png');
-    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
-.wlcometxt{
-    font-size: 35px;
-    color: #111;
-    padding-top: 5%;
-}
-.myname{
-    color: #EC4C7A;
-    font-size: 50px;
-}
-.name_desc{
-    text-align: justify;
-}
-.mid{
-    width: 90%;
-    margin: auto;
-}
-.left-part{
-    width: 48%;
-    float: left;
-}
-.right-part{
-    width: 48%;
-    float: left;
-}
-.right-part .topimg{
-    width: 95%;
-    padding-left: 19%;
-}
-.hireBtn{
-        background: linear-gradient(45deg, #EC4C7A, rgb(235, 15, 77) );
-        padding: 10px 20px;
-        color: #fff;
 
+.welcomeArea .leftArea{
+    width: 50%;
+    float: left;
+}
+.welcomeArea .rightArea{
+    width:50%;
+    float: left;
+}
+
+.welcomeArea .topImg img{
+    width: 100%;
+}
+.welcomeArea .toptxtArea{
+    padding-top: 20%
+}
+.welcomeArea .toptxtArea .helloTxt{
+    font-size: 25px;
+}
+.welcomeArea .toptxtArea .nameTitle{
+    font-size: 50px;
+    color: tomato;
+    padding: 3% 0;
+}
+.welcomeArea .nameTxt{
+    margin-bottom: 5%;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/*Biplography*/
+
+.biography{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;   
+}
+.biography .toptxtArea {
+    padding-top: 20%;
+    padding-left: 15%;
+}
+
+.biography .leftArea{
+    width: 50%;
+    float: left;
+}
+
+.biography .rightArea{
+    width:50%;
+    float: left;
+}
+.biography .nameTitle{
+    font-size: 30px;
+}
+.biography .nameTxt{
+    margin: 5% 0;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/*Latest work*/
+.latestWork{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;   
+}
+.latestWork .lwFirst {
+    width: 32%;
+    margin: auto;
+    float: left;
+}
+.latestWork .lwSecond{
+    width: 32%;
+    margin: auto;
+    float: left;
+    padding: 0px 15px;
+}
+.latestWork .lwThird{
+    width: 32%;
+    margin: auto;
+    float: left;
+}
+.latestWork img{
+    width: 100%;
+}
+
+.latestWork .nameTitle{
+    font-size: 30px;
+    text-align: center;
+}
+.latestWork .allWork{
+    padding: 5% 0;
+}
+
+
+/*client feedback*/
+.clientFeedback{
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;   
+}
+.clientFeedback .allTxt{
+    text-align: center;
+}
+.clientFeedback .mainTxt{
+    font-size: 30px;
+    padding: 7% 0;
+}
+.clientFeedback .clientComment{
+    padding: 5%
+}
+.clientFeedback .messageBox{
+    width: 60%;
+    height: 150px;
+    background-color: tomato;
+    margin: auto;
+    border-radius: 3px;
+}
+.clientFeedback .desig{
+    font-size: 10px;
+}
+.clientFeedback .messageBox .mtxt{
+    padding: 5%;
+}
+footer .fnote{
+    text-align: center;
+    color:darkred;
+    padding-bottom: 15px;
 }
